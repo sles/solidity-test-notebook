@@ -1,0 +1,21 @@
+{
+  "name": "test-notebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "truffle-contract": "^3.0.0",
+    "web3": "^1.0.0-beta.24"
+  },
+  "scripts": {
+    "start": "truffle migrate --reset && node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
