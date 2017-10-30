@@ -6,7 +6,7 @@ Run:
 2. Install node modules
 
     npm install
-3. Start TestRPC and run script
+3. Start TestRPC (in separate terminal) and run script
 
     testrpc
 
